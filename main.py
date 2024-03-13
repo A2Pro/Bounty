@@ -6,16 +6,16 @@ import asyncio
 from telethon import TelegramClient, events
 from openai import OpenAI
 
-client = OpenAI(api_key= "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")
-OpenAI.api_key = "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"
+client = OpenAI(api_key= "")
+OpenAI.api_key = ""
 
 # API ID for the Telegram application
-api_id = 27512487#change this with your api id
+api_id = #change this with your api id
 #  #int
 # API Hash for the Telegram application
-api_hash = "8c10f7903a9bd569a6f573985f0f42ed"#chane this with your api hash #str
+api_hash = ""#chane this with your api hash #str
 # Link to the Telegram group 
-group_link ="https://t.me/+0bFbTyoUEFUwYTlh" #str
+group_link ="" #str
 
 def chat_with_gpt(prompt):
     chat_completion = client.chat.completions.create(
